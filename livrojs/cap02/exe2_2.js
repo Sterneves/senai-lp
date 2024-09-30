@@ -13,4 +13,6 @@ frm.addEventListener("submit", (e)=> {
 
     resp1.innerText = titulo; // saida
     resp2.innerText = `${horas} hora(s) e ${minutis} minutos(s)`; // saida
+
+    e.preventDefault();
 });
