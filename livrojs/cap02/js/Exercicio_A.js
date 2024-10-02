@@ -12,5 +12,5 @@ frm.addEventListener("submit",(e)=>{
     resp1.innerText = `Medicamento: ${medicamento}`
     resp2.innerText = `Promocao R$: ${promocao.toFixed.Fixed(5)}`
     
-    e.preventDefalr()
+    e.preventDefault()
 })
